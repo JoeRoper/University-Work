@@ -1,0 +1,457 @@
+c5db869,1901881,Final fixes (#120),* Changed State Scenes
+
+* Changed Level Scenes
+
+* Changed UI
+
+* Changed Project Settings
+
+* Added new credits,Mon 18:44
+c91007c,1901881,Final build (#119),* misc fixes
+
+misc fixes for final
+
+* misc fixes
+
+Remove lvl 3
+Change level 2 ending to credits
+Music bug in level 2
+Pause bug
+
+* updated credits
+
+updated the credits sequence
+
+Co-authored-by: Ross Gauld <2000644@uad.ac.uk>,Sat 13:46
+dbc2063,1901881,Anteater Fixes (#118),All Anteater Animations now working
+
+# Conflicts:
+#	Assets/Prefabs/BlueTruck.prefab
+#	Assets/Prefabs/LogTruck.prefab
+#	Assets/Prefabs/RedTruck.prefab
+#	Assets/Scenes/Actual Levels/LVL3.unity
+
+Co-authored-by: Josh Heron <1600134@uad.ac.uk>,Tue May 10 16:16
+e577104,Cameron Thustain,level 3 bugs fixed (#117),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 10 13:30
+1b1c8f6,Cameron Thustain,fixed lighting bug for 1&2 (#116),still need to do 3
+
+Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 10 13:14
+7e4decc,Cameron Thustain,added level 3 button (#115),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 10 12:42
+b1bfc47,1901881,Fixing changes (#114),* Done
+
+Updated the prefab, each level the counter number needs to be set
+
+* Cleaned Up Car script (#111)
+
+changed the speed variable names to make more sense and put the car stop function in the car script,Tue May 10 12:23
+e939736,1901881,Beta build (#113),* Beta updates 1
+
+UI Scaling on credits and how to
+Audio balancing
+Added horns to lvl 1 cars
+Added auto assign audio source to cars
+Fixed anteater colliders
+Added stop after anteater death
+Reduced death wait
+Removed debug.logs (cluttering console)
+Added auto assign to speedbuttonscript
+Level 1 ui
+Tagged truck as car
+Level music pauses
+Return button works
+Return button in how to play
+Ant trails disabled
+Lights don’t turn off in lvl 1
+Made death material emissive
+Cars under level (car delete)
+Stop music/sfx on car hit
+Added music to lvl 3
+
+* tag updates
+
+new tags for beta pdates
+
+* Beta updates 2
+
+Pause background
+Level 1 warning
+Level 2 warnings
+Level numbers
+Fixed speed up buttons
+
+* Car movement particles
+
+Added car movement fx
+
+* various fixes
+
+Ui scaling, audio issues, level select ui, cars highlight on lvl 1
+
+* Ui fixes
+
+ui fixes
+
+* ui fixes
+
+ui fixes
+
+* Level fix
+
+fixed issue where level had no groun around the edges on certain resolutions
+
+Co-authored-by: Ross Gauld <2000644@uad.ac.uk>,Tue May 10 12:08
+9ab09cb,1901881,Added numbers to counter(#112),Updated the prefab, each level the counter number needs to be set,Mon May 9 12:38
+077b766,1901881,Cleaned Up Car script (#111),changed the speed variable names to make more sense and put the car stop function in the car script,Mon May 9 12:29
+037a4db,1901881,Beta build (#109),* Beta updates 1
+
+UI Scaling on credits and how to
+Audio balancing
+Added horns to lvl 1 cars
+Added auto assign audio source to cars
+Fixed anteater colliders
+Added stop after anteater death
+Reduced death wait
+Removed debug.logs (cluttering console)
+Added auto assign to speedbuttonscript
+Level 1 ui
+Tagged truck as car
+Level music pauses
+Return button works
+Return button in how to play
+Ant trails disabled
+Lights don’t turn off in lvl 1
+Made death material emissive
+Cars under level (car delete)
+Stop music/sfx on car hit
+Added music to lvl 3
+
+* tag updates
+
+new tags for beta pdates
+
+* Beta updates 2
+
+Pause background
+Level 1 warning
+Level 2 warnings
+Level numbers
+Fixed speed up buttons
+
+Co-authored-by: Ross Gauld <2000644@uad.ac.uk>,Mon May 9 10:17
+936c051,1901881,Finished (#108),Added functionality to change the speed modifiers in the inspector, can now remove speed modifier reference from the ant eater and cars but will wait till thos prefabs are available for change,Wed May 4 16:03
+2411c42,1901881,Added Alis numbers to the counter (#107),Every number image has a different size so when it is switched the sizing goes off,Wed May 4 15:06
+e11ef7d,Cameron Thustain,updated level select for lvl3 (#106),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Wed May 4 13:28
+b0709d2,Cameron Thustain,Roll credits after level 3 (#105),* update win state script
+
+goes through each level and rolls credits after level 3
+
+* set the levels current level number
+
+Set the levels current level number for the win state and lose states to work properly. added menu level system to level 3 also
+
+* add level 3 to build settings
+
+Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Wed May 4 12:25
+b17f051,1901881,Lighting Changes / LVL3 Added (#104),Co-authored-by: DanielTolland <1303164@uad.ac.uk>,Tue May 3 16:10
+56522c7,Cameron Thustain,Retry button to previous level (#103),* worked on retry button to previous level
+
+* got retry button working
+
+lvl1 no needs set to 1 and lvl3 needs set to 3!
+
+Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 3 15:07
+b58393a,1901881,Anteater animations implementation (#102),* Truck Animations and Death Sequence
+
+Anteater animations still need to be fixed and death sequence needs cleaned up
+
+* Cars fix and new Ant Trails
+
+Ant Trails are fully applied in scenes but Lvl One cars are now fixed
+
+Co-authored-by: Josh Heron <1600134@uad.ac.uk>,Tue May 3 14:58
+67227f3,1901881,Updated Prefab With the New Collision scripts and box colliders (#101),Waiting to test, currently the scene cars don't move
+If the tests work waiting on josh to add the new death sequences,Tue May 3 14:49
+13d4086,Cameron Thustain,added credit song (#99),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 3 13:27
+327ce14,Cameron Thustain,added delay on main menu buttons so sfx now works (#98),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 3 13:19
+ad74f39,Cameron Thustain,added car sfx when user presses car (#97),Co-authored-by: Cameron Thustain <thustain2@hotmail.co.uk>,Tue May 3 13:02
+c8dfaa1,forgingfoxes,Anteater animations implementation (#96),* Truck Animations and Death Sequence
+
+Anteater animations still need to be fixed and death sequence needs cleaned up
+
+* Truck Animations and Death Sequence
+
+Anteater animations still need to be fixed and death sequence needs cleaned up
+
+* Ant trail Animation and Car Braking
+
+Ant trails still need to be placed in the correct spots
+
+Co-authored-by: Josh Heron <1600134@uad.ac.uk>,Tue May 3 11:22
+ad993cf,1901881,Win state level screenshot (#95),* Fixed Brightness slider prefab and HUD scaling
+
+HUD doesnt show on level 1, added level screenshots but an artist needs to make proper ones
+
+* Win state level screenshot (#94)
+
+* Fixed Brightness slider prefab and HUD scaling
+
+HUD doesnt show on level 1, added level screenshots but an artist needs to make proper ones
+
+* Added Functionality to the win state script
+
+need to go into each level and set the level number
+
+* Bug - wont reference script
+
+* Got the functionality working
+
+it comes up with a null reference error but the code works
+
+* Bug - wont reference script
+
+* Got the functionality working
+
+it comes up with a null reference error but the code works,Wed Apr 27 20:48
+fce5cba,1901881,Win state level screenshot (#94),* Fixed Brightness slider prefab and HUD scaling
+
+HUD doesnt show on level 1, added level screenshots but an artist needs to make proper ones
+
+* Added Functionality to the win state script
+
+need to go into each level and set the level number
+
+* Bug - wont reference script
+
+* Got the functionality working
+
+it comes up with a null reference error but the code works,Wed Apr 27 20:35
+a2faf3a,Cameron Thustain,Merge pull request #93 from Sosig-Studios/Adding-Environmental-SFX,finished environmental sfx,Wed Apr 27 15:29
+d866ba0,Cameron Thustain,finished,,Wed Apr 27 15:28
+61f8be8,Cameron Thustain,Merge pull request #92 from Sosig-Studios/Adding-Environmental-SFX,levels now have three background audio music, traffic, nature,Wed Apr 27 15:26
+cf923a8,Cameron Thustain,levels now have three background audio music, traffic, nature,,Wed Apr 27 15:25
+a23e8f8,Cameron Thustain,Merge pull request #91 from Sosig-Studios/Update-Level-Music,Updated level music,Wed Apr 27 15:07
+a31cc37,Cameron Thustain,changed level music,,Wed Apr 27 15:06
+057b25e,Cameron Thustain,added button click sounds to menu, credits and how to play,,Wed Apr 27 14:39
+83a47d8,Cameron Thustain,Merge pull request #90 from Sosig-Studios/Win-and-Death-Themes,added win theme and lose theme,Wed Apr 27 14:11
+7291f3c,Cameron Thustain,added win theme and lose theme,,Wed Apr 27 14:01
+5cf0c46,1901881,Truck Animations and Death Sequence (#89),Anteater animations still need to be fixed and death sequence needs cleaned up
+
+Co-authored-by: Josh Heron <1600134@uad.ac.uk>,Wed Apr 27 14:01
+ba1787a,1901881,Finished (#88),Created a update function in speed buttons script that ckecks for key inputs. 1 - normal speed, 2 - fast speed, 3 - max speed,Wed Apr 27 13:10
+a600972,1901881,Car despawn (#87),* Fixed A HUD Issue
+
+Had it so when editing the scene the HUD can be turned off and it turns itself on when the level is played
+
+* Complete
+
+Car Now Deletes itself when it reaches the last waypoint,Wed Apr 27 13:01
+8f27655,1901881,Reversed Brightness Scaler (#86),,Tue Apr 26 15:00
+d248672,Cameron Thustain,Merge pull request #85 from Sosig-Studios/Adding-Splash,Credits,HTP,Adding splash,credits,htp and made the splash screen the first scene in the project settings.,Tue Apr 26 14:56
+b591f0e,Cameron Thustain,worked on htp and credits,,Tue Apr 26 14:55
+bbb52d1,Cameron Thustain,added credits,,Tue Apr 26 14:19
+d151462,1901881,Added the functionality (#84),waiting on ali too give me the number images,Tue Apr 26 14:11
+686d3e3,Cameron Thustain,made splash screen and credits,,Tue Apr 26 13:59
+7c63af2,1901881,Finished (#83),Had to delete the green background from the settings menu and pause menu,Tue Apr 26 12:58
+0ab9f12,1901881,Made the brightness slider functionality (#82),,Mon Apr 25 13:30
+c55c7cc,1901881,Put Scenes in folders (#81),,Mon Apr 25 12:18
+85e2686,1901881,Added speed buttons functionality to anteaters (#80),,Mon Apr 25 12:00
+e09c3e1,1901881,Fixed Ievel UI changes after merge (#79),,Mon Apr 25 11:43
+dc4fc65,1901881,Alpha fixes (#78),Co-authored-by: Ross Gauld <2000644@uad.ac.uk>,Mon Apr 25 11:24
+fa5f248,1901881,Finished (#77),just had to redo the car script,Fri Apr 22 16:25
+a4ac5b2,1901881,Game hud (#76),* Added Hud images
+
+Need to make the pause button work and sped buttons
+
+* Added pause button functionality and fixed settings menu
+
+need to fix settings menu sliders and add seed up functions
+
+* Fixed Settings Sliders
+
+* Added speed buttons
+
+hard to stop cars when fast, either set speed to being a float and decrease or make it so the car slows down quicker if the speed modifier is greater
+
+* Fixed bugs with speed
+
+cannot get just click and hold to work
+
+* Finished Car Alert
+
+Added change position, scale and despawn time to be changed in the inspector,Fri Apr 22 16:11
+77b3d1f,1901881,Alpha updates and fixes (#75),Co-authored-by: Ross Gauld <2000644@uad.ac.uk>,Fri Apr 22 15:52
+0e952bf,forgingfoxes,Longer Levels (#74),Two Medium Levels and changes to the anthill & anteater collision boxes
+
+Co-authored-by: Josh Heron <1600134@uad.ac.uk>,Fri Apr 22 15:21
+9eb4be6,Ross Gauld,Revert "test",This reverts commit ee041eafdf3382f0c3abe5bf731ff043c520e013.
+,Fri Apr 22 12:40
+4038f9e,Ross Gauld,test,,Fri Apr 22 12:34
+9dfde9e,2000644,Merge pull request #73 from Sosig-Studios/ross-test,test,Fri Apr 22 12:39
+aa88f15,Ross Gauld,test,,Fri Apr 22 12:37
+64384b1,Cameron Thustain,Merge pull request #72 from Sosig-Studios/Alpha-Build,working on alpha build,Wed Apr 20 21:04
+fe35a16,Cameron Thustain,working on alpha build,,Wed Apr 20 21:01
+9fafc5c,1901881,Adding car alert (#71),* Added raycast collision for box alert
+
+* Got Car Alert Popup Working
+
+Make it a prefab, might have to make it so the designer types in the position and rotation as it will change each level
+
+* Nearly finished
+
+just need to update the position and rotation then make it a prefab
+
+* Added repeating
+
+Nearly done figure out how to add a set image size or scaling, or have it spawn on a 2d plane on the screen,Wed Apr 20 19:54
+556a205,1901881,Animations (#70),Rig, AE animations, Car Animations
+
+Co-authored-by: DanielTolland <1303164@uad.ac.uk>,Wed Apr 20 14:21
+32d4353,Cameron Thustain,Merge pull request #69 from Sosig-Studios/Easy-Level,Easy level,Wed Apr 20 13:12
+0cde992,Cameron Thustain,made easy level,,Wed Apr 20 13:04
+7bcb8f3,Cameron Thustain,made easy level,,Wed Apr 20 13:03
+480100d,Cameron Thustain,made easy level,,Wed Apr 20 13:01
+7f6f0ec,Cameron Thustain,working on easy level,,Wed Apr 20 11:46
+a621f43,Joseph Roper,Cleaned up scripts folder,,Wed Apr 20 10:23
+ef18303,1901881,New UI (#68),* Added Pause Screen & New UI Assets
+
+Still need to work on the scripting
+
+* Added Settings menu slider bars
+
+* Fixed Settings menu Script Bug,Wed Apr 20 09:23
+a7b60c4,Cameron Thustain,Merge pull request #67 from Sosig-Studios/Adding-Final-State-UI,finished win state ui,Tue Apr 19 22:41
+4d0c60c,Cameron Thustain,finished win state ui,,Tue Apr 19 22:40
+0c57155,1901881,New UI (#66),* Added Pause Screen & New UI Assets
+
+Still need to work on the scripting
+
+* Added Settings menu slider bars,Tue Apr 19 20:17
+3666e37,Cameron Thustain,Merge pull request #65 from Sosig-Studios/Adding-Final-State-UI,added new ui to main menu, win state and level select still need to a…,Tue Apr 19 14:59
+0b073ed,Cameron Thustain,added new ui to main menu, win state and level select still need to add how to play and lose ui,,Tue Apr 19 14:59
+7cb4a74,Cameron Thustain,added font to win and lose state,,Wed Mar 30 18:04
+fcbfb5e,Cameron Thustain,Merge pull request #64 from Sosig-Studios/Audio-Manager-and-SFX,big truck added ro first level , camera sorted on second, audio code …,Wed Mar 30 15:43
+aae02dc,Cameron Thustain,big truck added ro first level , camera sorted on second, audio code for trucks started, new main menu.,levels need to be designed better more space between cars, slower anteaters all this can be done using the prefabs.
+,Wed Mar 30 15:42
+4010cc5,Cameron Thustain,Merge pull request #63 from Sosig-Studios/Audio-Manager-and-SFX,Audio manager and sfx,Wed Mar 30 14:27
+5eb131e,Cameron Thustain,added new logo and play button, working on second playable build,,Wed Mar 30 14:26
+ebf9b18,Cameron Thustain,working on sfx not finished,,Tue Mar 29 16:18
+740fbd7,Cameron Thustain,Merge pull request #62 from Sosig-Studios/Random-Facts,Implemented Random fact system,Tue Mar 29 14:45
+220b23e,Cameron Thustain,Added font for random facts,,Tue Mar 29 14:44
+6d683b4,Cameron Thustain,Integrated Random Fact System,Made animation for text and a new script, only thing still required is the font.
+,Tue Mar 29 14:31
+1b5b6cd,1901881,LVL2 Changes (#61),Added assets into LVL2
+
+Co-authored-by: DanielTolland <1303164@uad.ac.uk>,Thu Mar 24 22:15
+283c624,1901881,Added Slider Bar (#60),still need to have volume bar effect music and add the brightness bar,Thu Mar 24 22:06
+9bc17a4,Cameron Thustain,moved daniels scene to scene folder,,Wed Mar 23 14:13
+121bb14,1901881,Merge pull request #59 from Sosig-Studios/Lighting/Set-Dressing,Lighting/set dressing,Wed Mar 23 14:04
+be05c6f,Cameron Thustain,Merge pull request #58 from Sosig-Studios/added-cinemachine-for-me,added cinemachine,Wed Mar 23 14:03
+b535626,Cameron Thustain,added cinemachine,,Wed Mar 23 14:02
+d92b8a5,DanielTolland,Merge branch 'Lighting/Set-Dressing' of github.com:Sosig-Studios/DES310_Anteaters_-_Highways into Lighting/Set-Dressing,,Wed Mar 23 13:59
+d03123a,DanielTolland,Daniel level,,Tue Mar 22 22:51
+16f136d,Cameron Thustain,Merge pull request #57 from Sosig-Studios/Added-Sad-Fact,added sad fact,Wed Mar 23 13:30
+026bbde,Cameron Thustain,added sad fact,,Wed Mar 23 13:29
+0ff9997,Cameron Thustain,Merge pull request #56 from Sosig-Studios/Adding-SFX-2.0,Added more sfx,fun fact, sad fact,Wed Mar 23 13:17
+eadb075,Cameron Thustain,Added more sfx,fun fact, sad fact,Still need to get car horns working and anteater eating sound!
+,Wed Mar 23 13:15
+8f25083,1901881,Merge pull request #55 from Sosig-Studios/Lighting/Set-Dressing,Lighting/set dressing,Wed Mar 23 13:15
+550e00a,DanielTolland,More changes,,Tue Mar 22 22:51
+d011778,forgingfoxes,Merge pull request #54 from Sosig-Studios/Implementing-Death-Animation-&-Longer-Level,DeathAnimation and Longer Level,Wed Mar 23 11:24
+207074f,Josh Heron,DeathAnimation and Longer Level,Level still needs the death screen to be connected to the death animation, the camera to be placed in the correct place and all gameplay mechanics
+,Wed Mar 23 11:13
+1378076,DanielTolland,Set Dressing and lighting,Fixed Lighting etc
+,Tue Mar 22 21:22
+bb257e5,Josh Heron,Merge branch 'main' of github.com:Sosig-Studios/DES310_Anteaters_-_Highways,,Tue Mar 22 14:37
+905c7c0,Josh Heron,Revert "test commit",This reverts commit e6d5c244721c270b8e3a537c23180cad3f6a884b.
+,Tue Mar 22 14:33
+5c06d57,Cameron Thustain,Merge pull request #53 from Sosig-Studios/Adding-Flowers,Flower Power,Tue Mar 22 14:33
+108efa5,Cameron Thustain,Flower Power,added flowers to prefab
+,Tue Mar 22 14:33
+e6d5c24,Josh Heron,test commit,,Tue Mar 22 14:25
+9f630a7,Cameron Thustain,Merge pull request #52 from Sosig-Studios/Adding-Daniels-Shaders,Added the shaders to all the prefabs,Tue Mar 22 13:38
+fe1dab4,Cameron Thustain,Added the shaders to all the prefabs,Did not add shaders to the roads as daniel made new ones.
+,Tue Mar 22 13:37
+342bfd0,Joseph Roper,Added Setting Menu,Need to change other code so that it uses the audio mixer like the settings menu
+,Tue Mar 22 11:16
+7488e58,1901881,Merge pull request #51 from Sosig-Studios/Implementing-New-Trucks,Updated Car Prefab,Wed Mar 16 22:30
+d939049,Joseph Roper,Updated Car Prefab,Still need to place them in the level
+,Wed Mar 16 21:02
+7f64af6,Cameron Thustain,Merge pull request #50 from Sosig-Studios/Adding-SFX,Added some sfx like background sound effects and anthill collision sfx,Wed Mar 16 15:55
+47f3ffb,Cameron Thustain,Added some sfx like background sound effects and anthill collision sfx,,Wed Mar 16 15:54
+171d8fd,1901881,Merge pull request #49 from Sosig-Studios/Adding-New-Trucks,added new vehicles and made prefabs for them,Wed Mar 16 15:22
+b795456,Cameron Thustain,added new vehicles and made prefabs for them,still need scripts and colliders
+,Wed Mar 16 15:19
+74caceb,Cameron Thustain,Merge pull request #48 from 1900594/main,added outline script and adding final audio tracks,Wed Mar 16 12:22
+1f14d9d,Cameron Thustain,added outline script and new main menu music,,Wed Mar 16 12:19
+7cae88e,Cameron Thustain,working on traffic collision bug,,Tue Mar 15 13:44
+e0bfe0f,Cameron Thustain,made first build for first playable,,Wed Mar 9 20:55
+eee9e39,Cameron Thustain,added menu audio and level audio,,Wed Mar 9 20:41
+192daf7,Cameron Thustain,finished main menu,,Wed Mar 9 20:25
+91f6488,Cameron Thustain,working on ui,,Wed Mar 9 20:23
+9804814,Cameron Thustain,Working on winstate ui,,Wed Mar 9 19:44
+593912e,1901881,Merge pull request #46 from 1901881/main,Implementing Ali's UI Adjustments,Wed Mar 9 18:11
+9e9051b,1901881,Implementing Ali's UI Adjustments,,Wed Mar 9 18:10
+c7475b5,1901881,Merge pull request #43 from 1901881/main,Added New Buttons,Wed Mar 9 17:47
+a05846a,1901881,Added New Buttons,,Wed Mar 9 17:46
+035995d,1901881,Merge pull request #41 from 1901881/main,Added Pause Menu & Cleaned Up Hierachy,Wed Mar 9 17:29
+0cd3b14,1901881,Added Pause Menu,,Wed Mar 9 17:28
+3d214de,1901881,Cleaned up hierarchy,,Wed Mar 9 16:38
+ca5d237,1901881,Merge pull request #40 from 1901881/main,Made changes to first playble,Wed Mar 9 16:10
+a174fff,Joseph Roper,Made changes to first playble,,Wed Mar 9 13:26
+88f130d,1901881,Merge pull request #39 from Sosig-Studios/Josh,Josh,Wed Mar 9 12:59
+920f9db,1901881,Merge pull request #38 from Sosig-Studios/main,Updating branch,Wed Mar 9 12:02
+1ac4cec,1901881,Merge pull request #37 from 1901881/main,Finished level setup,Wed Mar 9 12:01
+2ee729e,1901881,Finished level setup,,Wed Mar 9 12:00
+5183866,1901881,Scene is playable,death state added
+,Wed Mar 9 11:43
+c7ad786,1901881,Added Models to first playable level,,Wed Mar 9 11:24
+d4afb74,Cameron Thustain,Merge pull request #36 from 1900594/main,added new scene for first playable.,Wed Mar 9 09:40
+f0a8d9a,Cameron Thustain,added new scene for first playable.,,Tue Mar 8 21:50
+9893b53,1901881,Merge pull request #35 from Sosig-Studios/main,updating branch,Tue Mar 8 15:53
+8aee84f,Cameron Thustain,Merge pull request #33 from 1900594/main,Made traffic collision script,Tue Mar 8 15:29
+d5915da,Cameron Thustain,made traffic collision script added it to car prefab,,Tue Mar 8 15:14
+a4ac3c5,Cameron Thustain,working on car to car collision,,Tue Mar 8 12:40
+ff52f29,1901881,Merge pull request #32 from Sosig-Studios/main,Updating Branch,Tue Mar 8 12:20
+b3a2e17,1901881,Merge pull request #31 from Sosig-Studios/Joe,Added car mouse hold,Tue Mar 8 00:14
+4860ac4,1901881,Added car mouse hold,,Tue Mar 8 00:13
+3ee15c8,1901881,Merge pull request #30 from Sosig-Studios/CamNew,added win state,Mon Mar 7 13:07
+05c157c,Cameron Thustain,added win state,,Wed Mar 2 15:51
+cc79edd,1901881,Merge pull request #28 from Sosig-Studios/Joe,Still working on the new level,Wed Mar 2 14:14
+26b3608,1901881,Still working on the new level,the anteater keeps falling through the floor
+,Wed Mar 2 14:13
+ff924ec,1901881,Merge pull request #27 from Sosig-Studios/Joe,Added New Levels,Wed Mar 2 13:56
+cac99ad,1901881,Added New Levels,still working on building up the level
+,Wed Mar 2 13:54
+f9bd651,1901881,Merge pull request #23 from Sosig-Studios/Joe,Joe,Wed Mar 2 12:19
+7fa2b77,Joseph Roper,Added New Win State,Changed the anthill eating code to make it look smoother. Made a script for the tree, when the last anteater touches it, it goes to the win state
+,Tue Mar 1 15:18
+04d2a40,1901881,Merge pull request #19 from Sosig-Studios/main,Updating,Wed Feb 23 12:13
+b894ca2,1901881,Merge pull request #18 from Sosig-Studios/main,Updating,Wed Feb 23 12:11
+dfba138,1901881,Merge pull request #17 from Sosig-Studios/CamT,Highlighting,Wed Feb 23 12:10
+fa34f61,1901881,Merge pull request #16 from Sosig-Studios/Alana,Car Highlighting,Wed Feb 23 12:02
+8ba8444,1901881,Merge pull request #15 from alXna93/Alana,added highlighting script 2,Wed Feb 23 12:00
+a5a7316,alXna93,added highlighting script 2,,Wed Feb 23 11:59
+a304379,1901881,Merge pull request #14 from Sosig-Studios/Alana,Car Highlighting,Wed Feb 23 11:53
+4822dee,1901881,Merge pull request #13 from alXna93/Alana,added highlighting script,Wed Feb 23 11:51
+8be8383,alXna93,added highlighting script,,Wed Feb 23 11:50
+aa0a106,1901881,Merge pull request #11 from Sosig-Studios/main,Updating Branch,Wed Feb 23 11:20
+b28d726,1901881,Merge pull request #10 from Sosig-Studios/main,Updating Branch,Wed Feb 23 11:18
+dedabd9,1901881,Merge branch 'main' into Joe,,Tue Feb 22 17:59
+bad6846,1901881,Merge pull request #9 from 1901881/main,Added WinState,Tue Feb 22 17:53
+722e472,1901881,Added WinState,Merged camerons work to the main branch
+,Tue Feb 22 17:51
+21a70da,1901881,Merge pull request #6 from 1901881/main,Ant eater collision,Tue Feb 22 13:17
+a4cc12e,1901881,Anteater Collision - 1,,Tue Feb 22 13:13
+fdd09b5,1901881,Merge pull request #5 from Sosig-Studios/Joe,Joe,Tue Feb 22 10:27
+8b93325,1901881,Car Collision - 2,Trying to add car break jolting back and forth
+,Tue Feb 22 10:25
+8fb2442,1901881,Car Collision - 1,Added rigid body to the car and anteater got it so the car stops on collision.
+,Mon Feb 21 13:09
+43b1611,1901881,Merge pull request #4 from Sosig-Studios/Joe,Fixed Gitignore,Mon Feb 21 11:42
+690a89e,1901881,Fixed Gitignore,,Mon Feb 21 11:38
+777b1eb,1901881,Merge pull request #2 from Sosig-Studios/Joe,Joe,Wed Feb 16 18:44
+13f9caa,Joseph Roper,Added Another Waypoint For Anteater,,Wed Feb 16 18:34
+853e6d1,Joseph Roper,Update README.md,,Wed Feb 16 18:26
+b34ce6f,1901881,Merge pull request #1 from 1901881/main,Added Recent Scene Code,Wed Feb 16 18:22
+16108d9,Joseph Roper,Added Recent Scene Code,,Wed Feb 16 15:25
+9a44ea1,1901881,Initial commit,,Wed Feb 16 15:14
