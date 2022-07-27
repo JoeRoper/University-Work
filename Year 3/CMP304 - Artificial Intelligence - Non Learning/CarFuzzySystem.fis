@@ -1,0 +1,45 @@
+[System]
+Name='CarFuzzySystem'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=7
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Velocity'
+Range=[-1 1]
+NumMFs=3
+MF1='Left':'gaussmf',[0.3539 -1]
+MF2='Centre':'gaussmf',[0.3539 -1.388e-17]
+MF3='Right':'gaussmf',[0.3538 1]
+
+[Input2]
+Name='Distance'
+Range=[-1 1]
+NumMFs=3
+MF1='Left':'gaussmf',[0.3539 -1]
+MF2='Centre':'gaussmf',[0.3539 -1.388e-17]
+MF3='Right':'gaussmf',[0.3538 1]
+
+[Output1]
+Name='Direction'
+Range=[-1 1]
+NumMFs=3
+MF1='Left':'gaussmf',[0.3539 -1]
+MF2='Centre':'gaussmf',[0.3539 -1.388e-17]
+MF3='Right':'gaussmf',[0.3538 1]
+
+[Rules]
+2 1, 1 (1) : 1
+1 2, 1 (1) : 1
+3 1, 2 (1) : 1
+2 2, 2 (1) : 1
+1 3, 2 (1) : 1
+3 2, 3 (1) : 1
+2 3, 3 (1) : 1

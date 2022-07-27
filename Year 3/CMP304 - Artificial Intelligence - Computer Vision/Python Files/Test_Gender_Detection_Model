@@ -1,0 +1,39 @@
+#import libraries
+import pandas as pd
+import numpy as np
+import os
+import matplotlib.pyplot as plt
+import cv2
+from keras.models import Sequential,load_model,Model
+from keras.layers import Conv2D,MaxPool2D,Dense,Dropout,BatchNormalization,Flatten,Input
+from sklearn.model_selection import train_test_split
+from keras.models import load_model
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+from sklearn import metrics
+
+path = "UTKFace"
+images = []
+gender = []
+for image in os.listdir(path):
+  genders = image.split("_")[1]
+  image = cv2.imread(str(path)+"/"+str(image))
+  image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+  #img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5)
+  images.append(np.array(image))
+  gender.append(np.array(genders))
+  
+
+images = np.array(images)
+gender = np.array(gender,np.uint64)
+
+xTrainGender, xTestGender, yTrainGender, yTestGender = train_test_split(images, gender, random_state=42)
+
+#Test the model
+model = load_model('Models/genderDetectionModel.h5', compile=False)
+predictions = model.predict(xTestGender)
+yPrediction = (predictions>= 0.5).astype(int)[:,0]
+print ("Accuracy = ", metrics.accuracy_score(yTestGender, yPrediction))
+confusionMatrix = confusion_matrix(yTestGender, yPrediction)  
+sns.heatmap(confusionMatrix, annot=True)
+plt.show()
